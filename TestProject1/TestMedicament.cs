@@ -6,18 +6,16 @@ public class TestMedicament
     [Test]
     public void MedicamentNameTest()
     {
-        var pharmacist = new Pharmacist("Мария", "Земцова");
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
         Assert.That(medicament.Name, Is.EqualTo("Нурофен"));
     }
     
     [Test]
     public void MedicamentCompositionTest()
     {
-        var pharmacist = new Pharmacist("Мария", "Земцова");
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
         Assert.That(medicament.Composition, Is.EqualTo("ибупрофен - 200,000 мг"));
     }
     
@@ -26,7 +24,7 @@ public class TestMedicament
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
         Assert.That(medicament.Indication, Is.EqualTo("головная боль, мигрень, зубная боль"));
     }
     
@@ -35,7 +33,7 @@ public class TestMedicament
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
         Assert.That(medicament.ModeOfApplication, Is.EqualTo("Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки"));
     }
     
@@ -44,17 +42,8 @@ public class TestMedicament
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
         Assert.That(medicament.Contraindications, Is.EqualTo("Беременность в сроке более 20 недель."));
-    }
-    
-    [Test]
-    public void MedicamentPharmacistTest()
-    {
-        var pharmacist = new Pharmacist("Мария", "Земцова");
-        var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
-        Assert.That(medicament.Pharmacist, Is.EqualTo(pharmacist));
     }
     
     [Test]
@@ -62,8 +51,10 @@ public class TestMedicament
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
-        medicament.SoldMedicament();
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
+        var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
+        pharmacy.AddMedicament(medicament);
+        medicament.SoldMedicament(pharmacist);
         Assert.AreEqual(medicament.IsSold, true);
     }
     
@@ -72,8 +63,8 @@ public class TestMedicament
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
-        medicament.NotSoldMedicament();
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
+        medicament.NotSoldMedicament(pharmacist);
         Assert.AreEqual(medicament.IsSold, false);
     }
     
@@ -82,10 +73,12 @@ public class TestMedicament
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
-        medicament.SoldMedicament();
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
+        var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
+        pharmacy.AddMedicament(medicament);
+        medicament.SoldMedicament(pharmacist);
         Assert.AreEqual(medicament.IsSold, true);
-        medicament.NotSoldMedicament();
+        medicament.NotSoldMedicament(pharmacist);
         Assert.AreEqual(medicament.IsSold, false);
     }
 }

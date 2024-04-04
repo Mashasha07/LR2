@@ -8,12 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f998ddb-8432-40e3-9308-c7bae5a8a2c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestProject1/TestMedicament.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LR2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LR2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LR2.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/LR2.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/TestPharmacist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/TestPharmacist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/TestMedicament.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/TestMedicament.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/TestPharmacy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/TestPharmacy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/CoverletSourceRootsMapping_TestProject1" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/CoverletSourceRootsMapping_TestProject1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/lab.dll" afterDir="false" />
@@ -21,22 +18,16 @@
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/Medicament.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/Medicament.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/Pharmacist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/Pharmacist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/Pharmacy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/Pharmacy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/ref/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/ref/lab.dll" afterDir="false" />
@@ -58,26 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\админ\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\админ\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\админ\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\админ\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\админ\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\админ\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.Pharmacist">
     <configuration name="Pharmacist" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -109,7 +100,8 @@
       <workItem from="1712172270692" duration="53000" />
       <workItem from="1712172410394" duration="2972000" />
       <workItem from="1712250832029" duration="286000" />
-      <workItem from="1712251178777" duration="7417000" />
+      <workItem from="1712251178777" duration="8619000" />
+      <workItem from="1712262082297" duration="3558000" />
     </task>
     <servers />
   </component>

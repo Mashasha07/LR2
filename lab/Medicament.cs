@@ -6,29 +6,27 @@ public class Medicament
     public string Composition { get; set; }
     public string Indication { get; set; }
     public string ModeOfApplication { get; set; }
-    public string Contraindications { get; set; }
-    public Pharmacist Pharmacist { get; set; }
+    public string Contraindications { get; set; } 
     public bool IsSold { get; set; }
     
-    public Medicament(string name, string composition, string indication, string modeOfApplication, string contraindications, Pharmacist pharmacist)
+    public Medicament(string name, string composition, string indication, string modeOfApplication, string contraindications)
     {
         Name = name;
         Composition = composition;
         Indication = indication;
         ModeOfApplication = modeOfApplication;
         Contraindications = contraindications;
-        Pharmacist = pharmacist;
     }
     
-    public void SoldMedicament()
+    public void SoldMedicament(Pharmacist pharmacist)
     {
         IsSold = true;
-        Console.WriteLine($"Фармавцевт {Pharmacist.FirstName} {Pharmacist.LastName} продает лекарственный препарат {Name}");
+        Console.WriteLine($"Фармавцевт {pharmacist.FirstName} {pharmacist.LastName} продал лекарственный препарат {Name}");
     }
     
-    public void NotSoldMedicament()
+    public void NotSoldMedicament(Pharmacist pharmacist)
     {
         IsSold = false;
-        Console.WriteLine($"Фармавцевт {Pharmacist.FirstName} {Pharmacist.LastName} не продает лекарственный препарат {Name}");
+        Console.WriteLine($"Фармавцевт {pharmacist.FirstName} {pharmacist.LastName} не продал лекарственный препарат {Name}");
     }
 }

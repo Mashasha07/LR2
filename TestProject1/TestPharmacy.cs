@@ -49,9 +49,8 @@ public class TestPharmacy
      public void AddMedicamentTest()
      {
          var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
-         var pharmacist = new Pharmacist("Иван", "Иванов");
          pharmacy.AddMedicament(new Medicament("Ибупрофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist));
+             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель."));
          Assert.AreEqual(pharmacy.Medicaments.Count, 1);
      }
      
@@ -59,12 +58,11 @@ public class TestPharmacy
      public void DeleteMedicamentTest()
      {
          var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
-         var pharmacist = new Pharmacist("Иван", "Иванов");
          var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist);
+             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
          pharmacy.AddMedicament(medicament);
          pharmacy.AddMedicament(new Medicament("Ибупрофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
-             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.", pharmacist));
+             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель."));
          Assert.AreEqual(pharmacy.Medicaments.Count, 2);
          pharmacy.DeleteMedicament(medicament);
          Assert.AreEqual(pharmacy.Medicaments.Count, 1);
