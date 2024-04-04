@@ -13,9 +13,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Pharmacis/Class1.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -74,6 +71,7 @@
       <workItem from="1712172270692" duration="53000" />
       <workItem from="1712172410394" duration="2972000" />
       <workItem from="1712250832029" duration="286000" />
+      <workItem from="1712251178777" duration="525000" />
     </task>
     <servers />
   </component>
