@@ -4,22 +4,22 @@ public class Pharmacist
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
-    public bool IsSold { get; set; }
+    public bool IsBusy { get; set; }
 
     public Pharmacist(string firstName, string lastName)
     {
         FirstName = firstName;
         LastName = lastName;
     }
-    public void SoldMedicament()
+    public void PharmacistBusy()
     {
-        IsSold = true;
-        Console.WriteLine($"Фармавцевт {FirstName} {LastName} продал лекарственный препарат");
+        IsBusy = true;
+        Console.WriteLine($"Фармавцевт {FirstName} {LastName} консультирует покупателя");
     }
 
-    public void NotSoldMedicament()
+    public void PharmacistNotBusy()
     {
-        IsSold = false;
-        Console.WriteLine($"Фармавцевт {FirstName} {LastName} не продал лекарственный препарат");
+        IsBusy = false;
+        Console.WriteLine($"Фармавцевт {FirstName} {LastName} не консультирует покупателя");
     }
 }

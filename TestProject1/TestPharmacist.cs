@@ -18,18 +18,28 @@ public class Tests
     }
 
     [Test]
-    public void PharmacistSoldMedicamentTest()
+    public void PharmacistBusyTest()
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
-        pharmacist.SoldMedicament();
-        Assert.AreEqual(pharmacist.IsSold, true);
+        pharmacist.PharmacistBusy();
+        Assert.AreEqual(pharmacist.IsBusy, true);
     }
 
     [Test]
-    public void PharmacistNotSoldMedicamentTest()
+    public void PharmacistNotBusyTest()
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
-        pharmacist.NotSoldMedicament();
-        Assert.AreEqual(pharmacist.IsSold, false);
+        pharmacist.PharmacistNotBusy();
+        Assert.AreEqual(pharmacist.IsBusy, false);
+    }
+    
+    [Test]
+    public void PharmacistStateTest()
+    {
+        var pharmacist = new Pharmacist("Мария", "Земцова");
+        pharmacist.PharmacistBusy();
+        Assert.AreEqual(pharmacist.IsBusy, true);
+        pharmacist.PharmacistNotBusy();
+        Assert.AreEqual(pharmacist.IsBusy, false);
     }
 }
