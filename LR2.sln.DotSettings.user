@@ -32,5 +32,20 @@
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestPharmacist.PharmacistBusyTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.ScientistBusyTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.ScientistNotBusyTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.ScientistStateTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Test_Subject.SubjectFirstNameTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Test_Subject.SubjectLastNameTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Test_Subject.SubjectAgeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Test_Subject.SubjectHealthTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Test_Subject.SubjectBusyTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Test_Subject.SubjectNotBusyTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Test_Subject.SubjectStateTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestLaboratory.LaboratoryNameTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestLaboratory.LaboratoryAddressTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestLaboratory.CheckQualityTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestLaboratory.CheckBadQualityTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestLaboratory.LaboratoryWorkTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestLaboratory.LaboratoryNotWorkTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestLaboratory.LaboratoryStateTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

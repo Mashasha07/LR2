@@ -5,15 +5,13 @@ public class Scientist
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public Medicament Medicament { get; set; }
-    public string TestMedicament { get; set; }
     public bool IsBusy { get; set; }
 
-    public Scientist(string firstName, string lastName, Medicament medicament, string testMedicament=null)
+    public Scientist(string firstName, string lastName, Medicament medicament)
     {
         FirstName = firstName;
         LastName = lastName;
         Medicament = medicament;
-        TestMedicament = testMedicament;
     }
     
     public void ScientistBusy(Medicament medicament)
