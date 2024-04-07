@@ -1,7 +1,7 @@
 using lab;
 namespace TestProject1;
 
-public class Tests
+public class TestPharmacist
 {
     [Test]
     public void PharmacistFirstNameTest()

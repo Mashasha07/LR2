@@ -26,5 +26,11 @@
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestMedicament.NotSoldMedicamentTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Tests.PharmacistBusyTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestMedicament.MedicamentStateTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.PharmacistFirstNameTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.ScientistLastNameTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.ScientistMedicamentTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestPharmacist.PharmacistBusyTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.ScientistBusyTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.ScientistNotBusyTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
