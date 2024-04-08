@@ -2,54 +2,27 @@ namespace lab;
 
 public class TestingMedicament
 {
-    public string Name { get; set; }
-    public string Address { get; set; }
-    public Dictionary<Subject, int> Subjects { get; set; }
-    public Dictionary<Medicament, int> Medicaments { get; set; }
-    public Dictionary<Scientist, int> Scientists { get; set; }
+    public Subject Subject { get; set; }
+    public Medicament Medicament { get; set; }
+    public Scientist Scientist { get; set; }
+    public bool IsTest { get; set; }
     
-    public TestingMedicament(string name, string address)
+    public TestingMedicament(Subject subject, Medicament medicament, Scientist scientist)
     {
-        Name = name;
-        Address = address;
-        Subjects = new Dictionary<Subject, int>();
-        Medicaments = new Dictionary<Medicament, int>();
-        Scientists = new Dictionary<Scientist, int>();
+        Subject = subject;
+        Medicament = medicament;
+        Scientist = scientist;
     }
     
-    public void AddSubject(Subject subject)
+    public void MedicamentTest(Medicament medicament, Subject subject, Scientist scientist)
     {
-        Subjects.Add(subject, 0);
-        Console.WriteLine($"Испытуемый {subject.FirstName} {subject.LastName} добавлен");
+        IsTest = true;
+        Console.WriteLine($"Медикамент {medicament.Name} тестируется ученым {scientist.FirstName} {scientist.LastName} и испытуемым {subject.FirstName} {subject.LastName}");
     }
 
-    public void DeleteSubject(Subject subject)
+    public void MedicamentNotTest(Medicament medicament)
     {
-        Subjects.Remove(subject);
-        Console.WriteLine($"Испытуемый {subject.FirstName} {subject.LastName} удален");
+        IsTest = false;
+        Console.WriteLine($"Медикамент {medicament.Name} не тестируется");
     }
-    
-    public void AddScientist(Scientist scientist)
-    {
-        Scientists.Add(scientist, 0);
-        Console.WriteLine($"Ученый {scientist.FirstName} {scientist.LastName} задействован в тестировании лекарственного препарата");
-    }
-
-    public void DeleteScientist(Scientist scientist)
-    {
-        Scientists.Remove(scientist);
-        Console.WriteLine($"Ученый {scientist.FirstName} {scientist.LastName} не задействован в тестировании лекарственного препарата");
-    }
-    
-    public void CheckQuality(Medicament medicament, Subject subject)
-    {
-        if (subject.HealthAfterMedicament == "хорошо")
-        {
-            Medicaments.Add(medicament, 0);
-            Console.WriteLine($"Препарат {medicament.Name} действует положительно и добавлен в аптеки");
-        }
-        else Console.WriteLine($"Препарат {medicament.Name} не действует и снят с производства");
-    }
-    
-  
 }
