@@ -32,6 +32,13 @@ public class Test_Subject
     }
     
     [Test]
+    public void SubjectHealthAfterMedicamentTest()
+    {
+        var subject = new Subject("Мария", "Земцова", "21", "простуда", "хорошо");
+        Assert.That(subject.HealthAfterMedicament, Is.EqualTo("хорошо"));
+    }
+    
+    [Test]
     public void SubjectBusyTest()
     {
         var subject = new Subject("Мария", "Земцова", "21", "простуда");

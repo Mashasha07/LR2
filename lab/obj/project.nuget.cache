@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kqWqEocj0EuMsi/s+8BCI/57JMmFLwljq71u3Pzsy6jyWRd/LV3FnlOQ3Paopki7r4Do/1cLZxTfR3kHht0SMQ==",
+  "dgSpecHash": "Lu2Sv8aB0Ka9qiBKEKmy7JdD0ZGX7Q9lAGLPmWX131yNkt0jhrnVfT3oNp1pqXRg5VziYHofa3t+XFaYOCPI2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\админ\\Desktop\\GitHub\\LR2\\lab\\lab.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\админ\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\админ\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\админ\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

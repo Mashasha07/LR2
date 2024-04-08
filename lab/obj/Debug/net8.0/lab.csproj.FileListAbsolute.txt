@@ -21,3 +21,4 @@ C:\Users\админ\Desktop\GitHub\LR2\lab\obj\Debug\net8.0\lab.dll
 C:\Users\админ\Desktop\GitHub\LR2\lab\obj\Debug\net8.0\refint\lab.dll
 C:\Users\админ\Desktop\GitHub\LR2\lab\obj\Debug\net8.0\lab.pdb
 C:\Users\админ\Desktop\GitHub\LR2\lab\obj\Debug\net8.0\ref\lab.dll
+C:\Users\админ\Desktop\GitHub\LR2\lab\obj\Debug\net8.0\lab.csproj.AssemblyReference.cache

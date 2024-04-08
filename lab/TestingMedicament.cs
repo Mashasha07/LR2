@@ -1,15 +1,14 @@
 namespace lab;
 
-public class Laboratory
+public class TestingMedicament
 {
     public string Name { get; set; }
     public string Address { get; set; }
     public Dictionary<Subject, int> Subjects { get; set; }
     public Dictionary<Medicament, int> Medicaments { get; set; }
     public Dictionary<Scientist, int> Scientists { get; set; }
-    public bool IsWork { get; set; }
     
-    public Laboratory(string name, string address)
+    public TestingMedicament(string name, string address)
     {
         Name = name;
         Address = address;
@@ -33,34 +32,24 @@ public class Laboratory
     public void AddScientist(Scientist scientist)
     {
         Scientists.Add(scientist, 0);
-        Console.WriteLine($"Ученый {scientist.FirstName} {scientist.LastName} устроен на работу");
+        Console.WriteLine($"Ученый {scientist.FirstName} {scientist.LastName} задействован в тестировании лекарственного препарата");
     }
 
     public void DeleteScientist(Scientist scientist)
     {
         Scientists.Remove(scientist);
-        Console.WriteLine($"Ученый {scientist.FirstName} {scientist.LastName} уволен с работы");
+        Console.WriteLine($"Ученый {scientist.FirstName} {scientist.LastName} не задействован в тестировании лекарственного препарата");
     }
     
-    public void CheckQuality(Medicament medicament)
+    public void CheckQuality(Medicament medicament, Subject subject)
     {
-        if (medicament.QualityOfMedicament > 5)
+        if (subject.HealthAfterMedicament == "хорошо")
         {
             Medicaments.Add(medicament, 0);
-            Console.WriteLine($"Препарат {medicament.Name} добавлен в аптеки");
+            Console.WriteLine($"Препарат {medicament.Name} действует положительно и добавлен в аптеки");
         }
-        else Console.WriteLine($"Препарат {medicament.Name} не добавлен в аптеки");
+        else Console.WriteLine($"Препарат {medicament.Name} не действует и снят с производства");
     }
     
-    public void LaboratoryWork()
-    {
-        IsWork = true;
-        Console.WriteLine($"Лаборатория {Name} по адресу {Address} еще работает");
-    }
-
-    public void LaboratoryNotWork()
-    {
-        IsWork = false;
-        Console.WriteLine($"Лаборатория {Name} по адресу {Address} уже закрылась");
-    }
+  
 }

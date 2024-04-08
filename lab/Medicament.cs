@@ -7,17 +7,15 @@ public class Medicament
     public string Indication { get; set; }
     public string ModeOfApplication { get; set; }
     public string Contraindications { get; set; } 
-    public int QualityOfMedicament { get; set; }
     public bool IsSold { get; set; }
     
-    public Medicament(string name, string composition, string indication, string modeOfApplication, string contraindications, int qualityOfMedicament=0)
+    public Medicament(string name, string composition, string indication, string modeOfApplication, string contraindications)
     {
         Name = name;
         Composition = composition;
         Indication = indication;
         ModeOfApplication = modeOfApplication;
         Contraindications = contraindications;
-        QualityOfMedicament = qualityOfMedicament;
     }
     
     public void SoldMedicament(Pharmacist pharmacist)

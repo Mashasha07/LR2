@@ -8,13 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f998ddb-8432-40e3-9308-c7bae5a8a2c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestProject1/Test Subject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestProject1/TestLaboratory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/Laboratory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/Subject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestProject1/TestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestProject1/TestTestingMedicament.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/Controller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LR2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LR2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LR2.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/LR2.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/TestScientist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/TestScientist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/Test Subject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/Test Subject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/TestLaboratory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/lab.dll" afterDir="false" />
@@ -27,17 +28,35 @@
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/Laboratory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/TestingMedicament.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/Medicament.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/Medicament.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/Scientist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/Scientist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/Subject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/Subject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/lab.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/lab/lab.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/ref/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/ref/lab.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/refint/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/refint/lab.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/lab.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/lab.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/lab.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/lab.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/lab.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/lab.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +128,10 @@
       <workItem from="1712251178777" duration="8619000" />
       <workItem from="1712262082297" duration="3558000" />
       <workItem from="1712302856491" duration="599000" />
-      <workItem from="1712515290262" duration="9087000" />
+      <workItem from="1712515290262" duration="9161000" />
+      <workItem from="1712586206842" duration="4310000" />
+      <workItem from="1712595790488" duration="1298000" />
+      <workItem from="1712597108787" duration="5692000" />
     </task>
     <servers />
   </component>
