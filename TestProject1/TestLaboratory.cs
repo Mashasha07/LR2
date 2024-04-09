@@ -64,5 +64,4 @@ public class TestLaboratory
         laboratory.LaboratoryNotWork();
         Assert.AreEqual(laboratory.IsWork, false);
     }
-   
 }

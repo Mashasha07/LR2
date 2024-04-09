@@ -11,9 +11,10 @@ public class Pharmacist
         FirstName = firstName;
         LastName = lastName;
     }
-    public void PharmacistBusy()
+    public void PharmacistBusy(Pharmacy pharmacy)
     {
         IsBusy = true;
+        pharmacy.IsWork = true;
         Console.WriteLine($"Фармавцевт {FirstName} {LastName} консультирует покупателя");
     }
 

@@ -74,5 +74,7 @@
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestTesingMedicaments.MedicamentTestTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestTesingMedicaments.MedicamentNotTestTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestTesingMedicaments.MedicamentTestStateTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestMedicament.DeleteMedicamentSoldTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestPharmacist.PharmacistStateTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

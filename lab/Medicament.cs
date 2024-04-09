@@ -18,9 +18,11 @@ public class Medicament
         Contraindications = contraindications;
     }
     
-    public void SoldMedicament(Pharmacist pharmacist)
+    public void SoldMedicament(Pharmacist pharmacist, Pharmacy pharmacy)
     {
         IsSold = true;
+        pharmacist.IsBusy = true;
+        pharmacy.DeleteMedicament(this);
         Console.WriteLine($"Фармавцевт {pharmacist.FirstName} {pharmacist.LastName} продал лекарственный препарат {Name}");
     }
     

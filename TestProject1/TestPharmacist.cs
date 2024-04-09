@@ -21,8 +21,10 @@ public class TestPharmacist
     public void PharmacistBusyTest()
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
-        pharmacist.PharmacistBusy();
+        var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
+        pharmacist.PharmacistBusy(pharmacy);
         Assert.AreEqual(pharmacist.IsBusy, true);
+        Assert.AreEqual(pharmacy.IsWork, true);
     }
 
     [Test]
@@ -37,8 +39,10 @@ public class TestPharmacist
     public void PharmacistStateTest()
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
-        pharmacist.PharmacistBusy();
+        var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
+        pharmacist.PharmacistBusy(pharmacy);
         Assert.AreEqual(pharmacist.IsBusy, true);
+        Assert.AreEqual(pharmacy.IsWork, true);
         pharmacist.PharmacistNotBusy();
         Assert.AreEqual(pharmacist.IsBusy, false);
     }

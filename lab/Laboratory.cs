@@ -63,6 +63,4 @@ public class Laboratory
         IsWork = false;
         Console.WriteLine($"Лаборатория {Name} по адресу {Address} уже закрылась");
     }
-    
-  
 }

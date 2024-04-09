@@ -17,6 +17,8 @@ public class TestingMedicament
     public void MedicamentTest(Medicament medicament, Subject subject, Scientist scientist)
     {
         IsTest = true;
+        Scientist.IsBusy = true;
+        Subject.IsBusy = true;
         Console.WriteLine($"Медикамент {medicament.Name} тестируется ученым {scientist.FirstName} {scientist.LastName} и испытуемым {subject.FirstName} {subject.LastName}");
     }
 

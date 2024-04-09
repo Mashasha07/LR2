@@ -13,6 +13,8 @@ public class TestTesingMedicaments
         var testingMedicament = new TestingMedicament(subject, medicament, scientist);
         testingMedicament.MedicamentTest(medicament, subject, scientist);
         Assert.AreEqual(testingMedicament.IsTest, true);
+        Assert.AreEqual(subject.IsBusy, true);
+        Assert.AreEqual(scientist.IsBusy, true);
     }
     
     [Test]
@@ -37,6 +39,8 @@ public class TestTesingMedicaments
         var testingMedicament = new TestingMedicament(subject, medicament, scientist);
         testingMedicament.MedicamentTest(medicament, subject, scientist);
         Assert.AreEqual(testingMedicament.IsTest, true);
+        Assert.AreEqual(subject.IsBusy, true);
+        Assert.AreEqual(scientist.IsBusy, true);
         testingMedicament.MedicamentNotTest(medicament);
         Assert.AreEqual(testingMedicament.IsTest, false);
     }

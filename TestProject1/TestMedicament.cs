@@ -50,12 +50,23 @@ public class TestMedicament
     public void SoldMedicamentTest()
     {
         var pharmacist = new Pharmacist("Мария", "Земцова");
+        var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
-        var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
-        pharmacy.AddMedicament(medicament);
-        medicament.SoldMedicament(pharmacist);
+        medicament.SoldMedicament(pharmacist, pharmacy);
         Assert.AreEqual(medicament.IsSold, true);
+        Assert.AreEqual(pharmacist.IsBusy, true);
+    }
+    
+    [Test]
+    public void DeleteMedicamentSoldTest()
+    {
+        var pharmacist = new Pharmacist("Мария", "Земцова");
+        var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
+        var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
+        medicament.SoldMedicament(pharmacist, pharmacy);
+        Assert.AreEqual(pharmacy.Medicaments.Count, 0);
     }
     
     [Test]
@@ -75,9 +86,10 @@ public class TestMedicament
         var medicament = new Medicament("Нурофен", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
         var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
-        pharmacy.AddMedicament(medicament);
-        medicament.SoldMedicament(pharmacist);
+        medicament.SoldMedicament(pharmacist, pharmacy);
         Assert.AreEqual(medicament.IsSold, true);
+        Assert.AreEqual(pharmacist.IsBusy, true);
+        Assert.AreEqual(pharmacy.Medicaments.Count, 0);
         medicament.NotSoldMedicament(pharmacist);
         Assert.AreEqual(medicament.IsSold, false);
     }

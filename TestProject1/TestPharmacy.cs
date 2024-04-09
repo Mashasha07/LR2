@@ -94,5 +94,4 @@ public class TestPharmacy
          pharmacy.PharmacyNotWork();
          Assert.AreEqual(pharmacy.IsWork, false);
      }
-        
 }
