@@ -146,3 +146,4 @@ public class TestController
         Assert.That(controller.pharmacist.LastName, Is.EqualTo("Иванов"));
     }
 }
+

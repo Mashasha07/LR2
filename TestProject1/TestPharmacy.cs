@@ -18,7 +18,7 @@ public class TestPharmacy
      }
 
      [Test]
-     public void PharmacyPharmacistsTest()
+     public void PharmacyPharmacistsIsNotNullTest()
      {
          var pharmacy = new Pharmacy("Бережная аптека", "7 Подлесная,20");
          Assert.IsNotNull(pharmacy.Pharmacists);
