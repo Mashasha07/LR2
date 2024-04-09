@@ -14,9 +14,10 @@ public class Scientist
         Medicament = medicament;
     }
     
-    public void ScientistBusy(Medicament medicament)
+    public void ScientistBusy(Medicament medicament, Laboratory laboratory)
     {
         IsBusy = true;
+        laboratory.IsWork = true;
         Console.WriteLine($"Ученый {FirstName} {LastName} создает лекарственный препарат {Medicament.Name}");
     }
 

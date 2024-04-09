@@ -1,5 +1,13 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9d70b02f_002Dd901_002D476f_002Daae4_002D7daef9871c1f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PharmacistFirstNameTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6d69599b_002D5a4a_002D4b3e_002Dadf7_002Dc409b5165c02/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SubjectBusyTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Test_Subject.SubjectBusyTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Test_Subject.SubjectStateTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.ScientistBusyTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.TestScientist.ScientistStateTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9d70b02f_002Dd901_002D476f_002Daae4_002D7daef9871c1f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PharmacistFirstNameTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Tests.PharmacistFirstNameTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::C5921308-B0BF-4B10-BCC0-1D937D807496::net8.0::TestProject1.Tests.PharmacistLastNameTest&lt;/TestId&gt;&#xD;

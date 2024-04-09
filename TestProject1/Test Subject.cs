@@ -42,8 +42,14 @@ public class Test_Subject
     public void SubjectBusyTest()
     {
         var subject = new Subject("Мария", "Земцова", "21", "простуда");
-        subject.SubjectBusy();
+        var medicament = new Medicament("Гриппферон", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
+        var scientist = new Scientist("Мария", "Земцова", medicament);
+        var laboratory = new Laboratory("Лаборатория 1", "7 Подлесная,30");
+        subject.SubjectBusy(scientist, laboratory);
         Assert.AreEqual(subject.IsBusy, true);
+        Assert.AreEqual(scientist.IsBusy, true);
+        Assert.AreEqual(laboratory.IsWork, true);
     }
     
     [Test]
@@ -58,8 +64,14 @@ public class Test_Subject
     public void SubjectStateTest()
     {
         var subject = new Subject("Мария", "Земцова", "21", "простуда");
-        subject.SubjectBusy();
+        var medicament = new Medicament("Гриппферон", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
+            "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
+        var scientist = new Scientist("Мария", "Земцова", medicament);
+        var laboratory = new Laboratory("Лаборатория 1", "7 Подлесная,30");
+        subject.SubjectBusy(scientist, laboratory);
         Assert.AreEqual(subject.IsBusy, true);
+        Assert.AreEqual(scientist.IsBusy, true);
+        Assert.AreEqual(laboratory.IsWork, true);
         subject.SubjectNotBusy();
         Assert.AreEqual(subject.IsBusy, false);
     }

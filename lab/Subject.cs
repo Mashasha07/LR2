@@ -18,9 +18,11 @@ public class Subject
         HealthAfterMedicament = healthAfterMedicament;
     }
     
-    public void SubjectBusy()
+    public void SubjectBusy(Scientist scientist, Laboratory laboratory)
     {
         IsBusy = true;
+        scientist.IsBusy = true;
+        laboratory.IsWork = true;
         Console.WriteLine($"Испытуемый {FirstName} {LastName} проверяет действие препарата");
     }
 

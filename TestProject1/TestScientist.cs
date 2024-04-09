@@ -36,8 +36,10 @@ public class TestScientist
         var medicament = new Medicament("Гриппферон", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
         var scientist = new Scientist("Мария", "Земцова", medicament);
-        scientist.ScientistBusy(medicament);
+        var laboratory = new Laboratory("Лаборатория 1", "7 Подлесная,30");
+        scientist.ScientistBusy(medicament, laboratory);
         Assert.AreEqual(scientist.IsBusy, true);
+        Assert.AreEqual(laboratory.IsWork, true);
     }
     
     [Test]
@@ -56,8 +58,10 @@ public class TestScientist
         var medicament = new Medicament("Гриппферон", "ибупрофен - 200,000 мг", "головная боль, мигрень, зубная боль", 
             "Внутрь по 200 мг (по 1 таблетке) до 3-4 раз в сутки", "Беременность в сроке более 20 недель.");
         var scientist = new Scientist("Мария", "Земцова", medicament);
-        scientist.ScientistBusy(medicament);
+        var laboratory = new Laboratory("Лаборатория 1", "7 Подлесная,30");
+        scientist.ScientistBusy(medicament, laboratory);
         Assert.AreEqual(scientist.IsBusy, true);
+        Assert.AreEqual(laboratory.IsWork, true);
         scientist.ScientistNotBusy();
         Assert.AreEqual(scientist.IsBusy, false);
     }
