@@ -8,50 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f998ddb-8432-40e3-9308-c7bae5a8a2c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TestProject1/ScenariesTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LR2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LR2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/LR2/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/LR2/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/lr2.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/lr2.metadata.v7.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/lr2.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/lr2.projects.v7.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LR2.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/LR2.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/TestPharmacy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/TestPharmacy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/TestTesingMedicaments.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/TestTesingMedicaments.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/TestProject1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/lab.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/lab.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/bin/Debug/net8.0/lab.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.CopyComplete" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/TestProject1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/ref/TestProject1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/Debug/net8.0/refint/TestProject1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/TestProject1.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab/bin/Debug/net8.0/lab.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/lab.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/ref/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/ref/lab.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/Debug/net8.0/refint/lab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/Debug/net8.0/refint/lab.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/lab.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/lab.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/lab/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +113,7 @@
       <workItem from="1712651523292" duration="842000" />
       <workItem from="1712672105347" duration="4005000" />
       <workItem from="1712677650624" duration="6523000" />
-      <workItem from="1712692098914" duration="1069000" />
+      <workItem from="1712692098914" duration="8123000" />
     </task>
     <servers />
   </component>
